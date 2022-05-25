@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+<a href="/first/calculator?a=10&b=2&action=multiplication">10*2 multiplication</a> or
+<a href="/first/calculator?a=10&b=2&action=addition">10+2 addition</a> or
+<a href="/first/calculator?a=10&b=2&action=subtraction">10-2 subtraction</a> or
+<a href="/first/calculator?a=10&b=2&action=division">10/2 division</a>
+
+<p th:text="${result}"/>
+
+</body>
+</html>
